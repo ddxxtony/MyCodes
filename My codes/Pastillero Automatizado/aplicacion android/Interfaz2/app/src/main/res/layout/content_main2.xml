@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="64dp"
+    android:paddingRight="64dp"
+    android:paddingTop="16dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.ellui.interfaz2.Main2Activity"
+    tools:showIn="@layout/activity_main2">
+
+
+    <ImageButton
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:id="@+id/imageButton"
+        android:scaleType="fitXY"
+        android:src="@drawable/i"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/MessageNM"
+        android:id="@+id/textView"
+        android:textSize="40sp"
+        android:textColor="@color/abc_primary_text_material_light"
+        android:visibility="visible"
+        android:layout_below="@+id/imageButton"
+        android:layout_alignParentEnd="true"
+        android:textIsSelectable="false" />
+</RelativeLayout>

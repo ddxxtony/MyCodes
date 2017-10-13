@@ -1,0 +1,115 @@
+body{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-color:gray;
+}
+
+p.titulo1 { 
+
+    font: 50px SimSun-ExtB;
+    font-weight: bold;
+}
+
+p.titulo3 { 
+
+    font: 40px SimSun-ExtB;
+    font-weight: bold;
+}
+p.titulo2 { 
+
+    font: 25px SimSun-ExtB;
+    font-weight: bold;
+}
+p.titulo5 { 
+
+    font: 18px SimSun-ExtB;
+    font-weight: bold;
+}
+
+p.text1{
+    font: 9px SimSun-ExtB;
+    font-weight: bold;
+}
+div.tux{
+    position:absolute;
+    top: -20px;
+    left: 105px;
+    rigth: 0px; 
+    // border: 2px solid #CCC;
+    // padding: 1em;
+    //margin: 1em 0 1em 4em;
+    width: 300px;
+}
+
+div.transparente1{
+
+
+    background-color: white; 
+    position:absolute; 
+    z-index:-1;
+    top:0;
+    left:-40px; 
+    right:0px;
+    width:290px;
+    bottom:0;
+    opacity:.8;
+    word-wrap: break-word;
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,2);
+    -webkit-border-radius: 3px 5px 1px 4px; /* recuerda la primera frase */
+    -moz-border-radius: 4px; /* si quieres todas las esquinas iguales */
+    border-radius: 3px;
+}
+
+div.transparente2{
+
+    background-color: white; 
+    position:absolute; 
+    z-index:-5;
+    top:-1px;
+    left:-70px; 
+    right:0px;
+    width:800px;
+    bottom:0;
+    opacity:.8;
+    word-wrap: break-word;
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,2);
+    -webkit-border-radius: 3px 5px 1px 4px; /* recuerda la primera frase */
+    -moz-border-radius: 4px; /* si quieres todas las esquinas iguales */
+    border-radius: 3px;
+
+}
+div.transparente3{
+
+    background-color: white; 
+    position:absolute; 
+    z-index:-5;
+    top:-1px;
+    left:0px; 
+    right:0px;
+    width:187px;
+    bottom:0;
+    opacity:.6;
+    word-wrap: break-word;
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,1);
+    -webkit-border-radius: 3px 5px 1px 4px; /* recuerda la primera frase */
+    -moz-border-radius: 4px; /* si quieres todas las esquinas iguales */
+    border-radius: 3px;
+
+}
+
+a:hover{text-decoration:underline;
+        color:black; 
+        font-weight:bold;
+
+
+}
+
+
+a{text-decoration:none;
+  color:black;
+  font-weight:bold;
+
+}
+
+

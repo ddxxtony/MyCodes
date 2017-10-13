@@ -1,0 +1,20 @@
+Responsable: IDresponsable, Nombre, Correo
+N
+|
+|
+1
+Paciente: IDpaciente, Nombre, Calle, Numero, Colonia		 
+1
+|
+|
+N
+Medicamento: IDmedicamento(int), Nombre(String), dosis(int), ColorDG(String),intervalo(BigInt),duraciontx(Date)----cosas que ocupo  i1(bigint),i2(bigint)
+N
+|
+|
+Log: ID_LOG(int), IDMedicamento(int), IDhorario(int), fecha y hora de toma(datetime)
+|
+|
+N
+Horario: IDhorario(int), fecha y hora de dosis(DateTime)
+

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:id="@+id/pcolonia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C"
+            android:textSize="24sp"
+            android:layout_marginStart="115dp"
+            app:layout_constraintLeft_toRightOf="@+id/textView16"
+            android:layout_marginLeft="117dp"
+            android:layout_marginTop="42dp"
+            app:layout_constraintTop_toBottomOf="@+id/pnumero" />
+
+        <TextView
+            android:id="@+id/pnumero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nu"
+            android:textSize="24sp"
+            app:layout_constraintLeft_toRightOf="@+id/textView17"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="58dp"
+            app:layout_constraintTop_toBottomOf="@+id/pcalle" />
+
+        <TextView
+            android:id="@+id/pcalle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C"
+            android:textSize="24sp"
+            android:layout_marginStart="141dp"
+            app:layout_constraintLeft_toRightOf="@+id/textView15"
+            android:layout_marginLeft="142dp"
+            android:layout_marginTop="45dp"
+            app:layout_constraintTop_toBottomOf="@+id/pnombre" />
+
+        <TextView
+            android:id="@+id/pnombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="N"
+            android:textSize="24sp"
+            app:layout_constraintLeft_toRightOf="@+id/textView14"
+            android:layout_marginLeft="109dp"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="97dp" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Número:"
+            android:textSize="24sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginLeft="158dp"
+            android:layout_marginTop="57dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Colonia:"
+            android:textSize="24sp"
+            android:layout_marginStart="158dp"
+            android:layout_marginLeft="158dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="43dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calle:"
+            android:textSize="24sp"
+            android:layout_marginLeft="159dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="46dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre:"
+            android:textSize="24sp"
+            android:layout_marginLeft="159dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="97dp" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fapfer"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:clickable="true"
+            app:backgroundTint="@android:color/background_light"
+            app:fabSize="mini"
+            app:srcCompat="@drawable/ic_edit"
+            android:layout_marginEnd="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintVertical_bias="0.914" />
+    </android.support.constraint.ConstraintLayout>
+</LinearLayout>

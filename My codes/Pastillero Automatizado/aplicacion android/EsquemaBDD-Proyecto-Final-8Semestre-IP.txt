@@ -1,0 +1,18 @@
+hondResponsable: IDresponsable, Nombre, Correo
+N
+|
+|
+1
+Paciente: IDpaciente, Nombre, Calle, Numero, Colonia		 
+1
+|
+|
+N
+Medicamento: IDmedicamento, Nombre, dosis,intervalo,ColorDG,
+N
+|
+|
+N
+Log: ID_LOG, IDMedicamento,fecha y hora programada,fecha y hora de toma(nullable);
+
+

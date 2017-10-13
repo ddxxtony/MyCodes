@@ -1,0 +1,32 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19-nov-2016, 15:40:27
+    Author     : ellui
+*/
+
+#elementBox{
+    display: none;
+    position:fixed;
+    width: 25%;
+    left:58%;
+    top:26%;
+    margin: 20px 20px 10px 40px;
+    /*// height: 160px; */
+    float: left;
+    background:white;
+    font-size: 24px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0px 0px 16px 1px rgba(0,0,0,20);
+    -webkit-border-radius: 3px 5px 1px 4px; /* recuerda la primera frase */
+    -moz-border-radius: 4px; /* si quieres todas las esquinas iguales */
+    border-radius: 8px;
+    padding-left: 60px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+

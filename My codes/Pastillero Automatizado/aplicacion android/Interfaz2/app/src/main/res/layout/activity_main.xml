@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    tools:context="com.example.ellui.interfaz2.MainActivity">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:popupTheme="@style/AppTheme.PopupOverlay"
+                app:title="App Pastillero" />
+
+        </android.support.design.widget.AppBarLayout>
+
+
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="@dimen/fab_margin"
+            android:src="@drawable/plus"
+            android:adjustViewBounds="true"
+            app:backgroundTint="@color/material_deep_teal_500"
+            android:clickable="true" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:layout_margin="1dp"
+
+        android:weightSum="1">
+
+        <include
+            android:id="@+id/id1"
+            layout="@layout/barra_menus"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="563dp"
+            android:background="@drawable/borde"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <include
+                android:id="@+id/includeDer_MV"
+                layout="@layout/contetn_medicamento_vacio"
+                android:layout_width="661dp"
+                android:layout_height="541dp"
+                android:visibility="gone"
+                android:layout_weight="0.09" />
+
+            <include
+                android:id="@+id/includeDer_M_Con"
+                layout="@layout/content_medicamento_con"
+                android:layout_width="661dp"
+                android:layout_height="541dp"
+                android:layout_weight="0.09"
+                android:visibility="visible" />
+
+            <include
+                android:id="@+id/includeDer_ResVacio"
+                layout="@layout/content_responsables_vacio"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone" />
+
+            <include
+                android:id="@+id/includeResponsablesC"
+                layout="@layout/responsables_con"
+                android:layout_width="661dp"
+                android:layout_height="541dp"
+                android:visibility="gone"
+                android:layout_weight="0.09" />
+
+            <include
+                android:id="@+id/includePacienteinfo"
+                layout="@layout/infopac"
+                android:layout_width="661dp"
+                android:layout_height="541dp"
+                android:visibility="gone"
+                android:layout_weight="0.09" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>
